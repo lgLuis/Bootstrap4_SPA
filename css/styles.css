@@ -1,1 +1,24 @@
 /*** Add your styles here **/
+
+.sociales ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.sociales ul li{
+    position: relative;
+    display: inline-block;
+}
+
+/* .sociales ul li a::before{ */
+.sociales ul li a{
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    display: inline-block;
+    vertical-align: top;
+    padding: 0.5rem;
+    content: '\f08e';
+    -webkit-font-smoothing: antialiased;
+    font-size: 2.5rem;
+    color: lightcoral;
+}
