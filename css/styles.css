@@ -22,3 +22,38 @@
     font-size: 2.5rem;
     color: lightcoral;
 }
+
+.navegacion{
+    background-color: lightcyan;
+}
+.navbar-light .navbar-toggler{
+    background-color: lightcoral;
+}
+
+.navbar-light .navbar-brand,
+.navbar-light .navbar-brand:hover{
+    color: lightcoral;
+    text-transform: uppercase;
+}
+
+.nav-link{
+    color: lightcoral;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 1.2rem;
+    transition: background-color .4s  ease-in-out;
+}
+
+.nav-link:hover{
+    background-color: lightcoral;
+    color: white;
+}
+
+.logo-color{
+    color: lightcoral;
+    text-decoration: none;
+}
+.logo-color:hover{
+    color: lightcoral;
+    text-decoration: none;
+}

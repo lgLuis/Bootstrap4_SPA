@@ -12,8 +12,8 @@
 <body>
     <header class="encabezado-sitio container">
         <div class="row justify-content-md-between align-items-center">
-            <div class="col-lg-4">
-                <a href="index.html" class="pt-4 pb-4 text-uppercase">Spa bonito
+            <div class="col-lg-4 ">
+                <a href="index.html" class="pt-4 pb-4 text-uppercase logo-color">Spa bonito
                     <i class="fab fa-pagelines fa-4x"></i>
                 </a>
             </div>
@@ -31,19 +31,24 @@
         </div>
     </header>
 
-    <div class="navegacion">
-        <nav class="nav-ppal navbar navbar-expand-md navbar-light bg-faded">
+    <div class="navegacion mt-3 py-2">
+        <nav class="nav-principal navbar navbar-expand-md navbar-light bg-faded">
+            <button class="navbar-toggler"  type="button" data-toggle="collapse" data-target="#nav_principal" aria-label="Mostrar Navegacion">
+                <span class="navbar-toggler-icon"></span>
+            </button>
             <!--MENU RESPONSIVE-->
             <a href="#" class="navbar-brand d-lg-none">Spa bonito</a>
             <div class="container">
-                <ul class="nav nav-justified w-100 flex-column flex-sm-row">
-                    <li class="nav-item">Inicio<a href="index.html" class="nav-link"></a></li>
-                    <li class="nav-item">Nosotros<a href="#" class="nav-link"></a></li>
-                    <li class="nav-item">Servicios<a href="#" class="nav-link"></a></li>
-                    <li class="nav-item">Productos<a href="#" class="nav-link"></a></li>
-                    <li class="nav-item">Contacto<a href="#" class="nav-link"></a></li>
-                </ul>
-            </div>
+                <div class="collapse navbar-collapse w-100" id="nav_principal">
+                        <ul class="nav nav-justified flex-column flex-sm-row w-100">
+                            <li class="nav-item"><a href="index.html" class="nav-link">Inicio</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link">Nosotros</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link">Servicios</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link">Productos</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link">Contacto</a></li>
+                        </ul>
+                </div> <!--FIN COLLAPSE-->
+            </div> <!--FIN CONTAINER-->
         </nav>
     </div>
 
