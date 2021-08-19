@@ -57,3 +57,8 @@
     color: lightcoral;
     text-decoration: none;
 }
+
+.carousel-inner h3{
+    color: lightcoral;
+    background-color: white;
+}
