@@ -13,7 +13,8 @@
 
 /* .sociales ul li a::before{ */
 .sociales ul li a{
-    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    /* font-family: 'Segoe UI', Tahoma, Verdana, sans-serif; */
+    font-family: 'Oxygen', sans-serif;
     display: inline-block;
     vertical-align: top;
     padding: 0.5rem;
@@ -42,6 +43,7 @@
     font-weight: 500;
     font-size: 1.2rem;
     transition: background-color .4s  ease-in-out;
+    font-family: 'Oxygen', sans-serif;
 }
 
 .nav-link:hover{
@@ -52,6 +54,7 @@
 .logo-color{
     color: lightcoral;
     text-decoration: none;
+    font-family: 'Oxygen', sans-serif;
 }
 .logo-color:hover{
     color: lightcoral;
@@ -61,5 +64,6 @@
 .carousel-inner h3{
     color: lightcoral;
     background-color: white;
+    font-family: 'Oxygen', sans-serif;
 }
 
