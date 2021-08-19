@@ -1,5 +1,34 @@
 /*** Add your styles here **/
 
+
+:root{
+    --fuentePpal:'Oxygen', sans-serif;
+    --fuenteCrusiva:'Dancing Script', cursive;
+    --blanco:#ffff;
+    --negro:#0000;
+    --gris:#F4F6F6;
+    --coralSuave:#F08080;
+    --verdeSuave:#E8F8F5;
+}
+
+
+body{
+    background-color: var(--gris);
+}
+
+h2{
+    font-size: 2.3rem;
+    font-family: var(--fuentePpal);
+
+}
+
+h2  span{
+    font-family: var(--fuenteCrusiva);
+    text-transform: uppercase;
+    color: var(--coralSuave);
+
+}
+
 .sociales ul{
     list-style: none;
     margin: 0;
@@ -14,7 +43,7 @@
 /* .sociales ul li a::before{ */
 .sociales ul li a{
     /* font-family: 'Segoe UI', Tahoma, Verdana, sans-serif; */
-    font-family: 'Oxygen', sans-serif;
+    font-family: var(--fuentePpal);
     display: inline-block;
     vertical-align: top;
     padding: 0.5rem;
@@ -65,5 +94,12 @@
     color: lightcoral;
     background-color: white;
     font-family: 'Oxygen', sans-serif;
+}
+
+/* NUEVO SITIO */
+
+.nuevo-sitio P{
+    font-family: var(--fuenteCrusiva);
+    font-size: 2rem;
 }
 
