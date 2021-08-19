@@ -16,13 +16,13 @@ body{
     background-color: var(--gris);
 }
 
-h2{
+.encabezado {
     font-size: 2.3rem;
     font-family: var(--fuentePpal);
 
 }
 
-h2  span{
+.encabezado  span{
     font-family: var(--fuenteCrusiva);
     text-transform: uppercase;
     color: var(--coralSuave);
@@ -103,3 +103,26 @@ h2  span{
     font-size: 2rem;
 }
 
+
+.imagen-servicio img{
+    border: 5px solid var(--blanco);
+    -webkit-transition: transform .4s ease;
+    -ms-transition: transform .4s ease;;
+    transition: transform .4s ease;
+}
+
+.imagen-servicio img:hover{
+    -webkit-transform: scale(1.1) rotate(2deg);
+    -ms-transform: scale(1.1) rotate(2deg);
+    transform: scale(1.1) rotate(2deg);
+}
+.servicio-info{
+    background-color: var(--blanco);
+    margin-top: -5rem;
+}
+
+.servicio-info .btn-primary{
+    border-radius: 0;
+    background-color: var(--coralSuave);
+    border: none;
+}
