@@ -5,10 +5,12 @@
     --fuentePpal:'Oxygen', sans-serif;
     --fuenteCrusiva:'Dancing Script', cursive;
     --blanco:#ffff;
-    --negro:#0000;
+    --negro:rgba(14, 8, 8, 0);
     --gris:#F4F6F6;
     --coralSuave:#F08080;
     --verdeSuave:#E8F8F5;
+    --verde:#c7f3e9;
+
 }
 
 
@@ -17,7 +19,7 @@ body{
 }
 
 .encabezado {
-    font-size: 2.3rem;
+    font-size: 1.9rem;
     font-family: var(--fuentePpal);
 
 }
@@ -54,7 +56,7 @@ body{
 }
 
 .navegacion{
-    background-color: lightcyan;
+    background-color: var(--verde);
 }
 .navbar-light .navbar-toggler{
     background-color: lightcoral;
@@ -103,12 +105,16 @@ body{
     font-size: 2rem;
 }
 
+/* .imagen-servicio{
+    text-align: center;
+} */
 
 .imagen-servicio img{
     border: 5px solid var(--blanco);
     -webkit-transition: transform .4s ease;
     -ms-transition: transform .4s ease;;
     transition: transform .4s ease;
+
 }
 
 .imagen-servicio img:hover{
@@ -125,4 +131,54 @@ body{
     border-radius: 0;
     background-color: var(--coralSuave);
     border: none;
+}
+
+
+/*TABLA*/
+.horario{
+    background-color: var(--verde);
+}
+
+.horario h2{
+    font-size: 2rem;
+}
+
+.horario .table{
+    border: 2px solid var(--blanco); 
+}
+
+.horario .table thead{
+    background-color: var(--coralSuave);
+}
+
+/* .horario .table tr,
+.horario .table td{
+    border: none;
+} */
+
+
+.bg-horario{
+    background-image: url(/img/bg-image-01.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+
+/*PRODUCTOS*/
+
+.productos .card{
+    border: none;
+
+}
+
+.productos .card a{
+    color: var(--coralSuave);
+}
+
+.productos .card a:hover{
+    text-decoration: none;
+}
+
+.productos .card h3{
+    font-size: 1.9rem;
 }
