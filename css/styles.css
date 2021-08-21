@@ -182,3 +182,45 @@ body{
 .productos .card h3{
     font-size: 1.9rem;
 }
+
+/*RESERVAS*/
+.citas{
+    background-image: url(/img/bg_citas_01.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    /* background-size: cover; */
+    min-height: 750px;
+    background-attachment: fixed;
+    color: var(--coralSuave);
+
+}
+
+@media (min-with: 992px){
+    .citas{
+        background-size: cover;
+    }
+}
+
+.citas h3{
+    font-size: 2.5rem;
+    font-family: var(--fuenteCrusiva);
+    background-color: var(--gris);
+}
+.citas p{
+    color: var(--coralSuave);
+    background-color: var(--gris);
+    border: none;
+    font-size: 0.8rem;
+}
+
+.citas a{
+    color: var(--gris);
+    background-color: var(--coralSuave);
+    border: none;
+    border-radius: 0;
+}
+
+.citas a:hover{
+    color: var(--gris);
+    background-color: var(--coralSuave);
+}
